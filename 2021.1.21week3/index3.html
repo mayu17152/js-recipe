@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+//const input = document.getElementById("input");
+const button = document.getElementById("button");
+​
+// ボタンをクリックしたら、
+button.onclick = function() {
+  // ローカルストレージに値(inputの中身)を保存
+  localStorage["text"] = input.value;
+};
+​
+// ローカルストレージから値の読み込み
+input.value = localStorage["text"];
+​
+// 配列を保存しようとしても、文字列として保存されてしまう
+const todoList = ["勉強する", "買い物に行く"];
+​
+localStorage["todoList"] = todoList;
+​
+// ちゃんとした配列の保存の仕方
+localStorage["todoList2"] = JSON.stringify(todoList);
+​
+// 配列のLocalStorageを読み込むとき
+// 普通にやっても上手く行かない
+const readTodoList = localStorage["todoList2"];
+console.log(readTodoList);
+console.log(typeof readTodoList);
+​
+// 上手く行くやり方
+const readTodoList2 = JSON.parse(localStorage["todoList2"]);
+console.log(readTodoList2);
+console.log(typeof readTodoList2);
+​
+/* ★まとめ
+localStorageに保存するときは、
+localStorage["text"] = input.value;
+​
+読み込むときは
+input.value = localStorage["text"]
+​
+変数が配列の時だけ、
+JSON.stringify
+JSON.parse
+*/
+Collapse
+
+
+

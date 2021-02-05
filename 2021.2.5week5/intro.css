@@ -1,0 +1,222 @@
+
+
+
+body {
+    background: #fff0f5;
+    font-family: Meiryo;
+ }
+
+.name  {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+.profile {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:bisque
+}
+
+.list-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:bisque
+}
+
+#subtitle {
+    height: 50spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:bisque
+}
+
+#pointDisplay {
+    height: 50spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+/* 第一問目 */
+.quizbox1 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer1 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer1 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+
+.quizbox2 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer2 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer2 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+.quizbox3 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer3 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer3 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+
+.quizbox4 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer4 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer4 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+
+
+.quizbox5 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer5 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer5 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+.quizbox6 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#quizcontainer6 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+#answer6 {
+    height: 100spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#faebd7
+}
+
+
+
+
+
+
+.title2 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:bisque
+}
+
+#button30 {
+    height: 50spx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:bisque
+}
